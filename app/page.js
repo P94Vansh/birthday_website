@@ -33,7 +33,6 @@ const Home = () => {
           Go to Cake Cutting
         </Link>
       </main>
-
       <footer className="w-full h-24 border-t border-white flex justify-center items-center">
         <p className="text-white">Made with ❤️ by you viruss for your special day!</p>
       </footer>
