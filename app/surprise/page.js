@@ -40,7 +40,7 @@ const Surprise = () => {
             Sending you a warm back hug!
           </p>
         </div>
-        <h1 className='text-4xl font-bold text-blue-600 mb-4'>Now you can head lean my girl 🫠</h1>
+        <h1 className='text-4xl font-bold text-blue-600 mb-4 text-center'>Now you can head lean my girl 🫠</h1>
       </main>
     </div>
   );

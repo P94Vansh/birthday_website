@@ -12,32 +12,31 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex-1 flex flex-col justify-center items-center py-20">
-        <h1 className="text-6xl font-bold text-white animate-bounce">
+      <main className="flex-1 flex flex-col justify-center items-center py-10 md:py-20">
+        <h1 className="text-4xl md:text-6xl font-bold text-white animate-bounce">
           Happy Birthday My dear Bacteria!
         </h1>
 
         <Image
           src="/photo.jpg" // Replace with your image path
           alt="Birthday Celebration"
-          width={500} // Adjust width as needed
-          height={300} // Adjust height as needed
-          className="rounded-lg shadow-lg mt-8"
+          width={300} // Adjust width as needed
+          height={200} // Adjust height as needed
+          className="rounded-lg shadow-lg mt-4 md:mt-8"
         />
 
-        <p className="mt-4 text-2xl text-white animate-fade-in">
+        <p className="mt-2 md:mt-4 text-xl md:text-2xl text-white animate-fade-in">
           Welcome to your special birthday website.
         </p>
 
-        <Link href="/cake" className="mt-8 text-xl text-white underline">
+        <Link href="/cake" className="mt-4 md:mt-8 text-lg md:text-xl text-white underline">
           Go to Cake Cutting
         </Link>
       </main>
-      <footer className="w-full h-24 border-t border-white flex justify-center items-center">
-        <p className="text-white">Made with ❤️ by you viruss for your special day!</p>
+      <footer className="w-full h-16 md:h-24 border-t border-white flex justify-center items-center">
+        <p className="text-white text-sm md:text-base">Made with ❤️ by you viruss for your special day!</p>
       </footer>
     </div>
   );
 }
-
 export default Home;
