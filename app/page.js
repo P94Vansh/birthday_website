@@ -34,7 +34,7 @@ const Home = () => {
         </Link>
       </main>
       <footer className="w-full h-16 md:h-24 border-t border-white flex justify-center items-center">
-        <p className="text-white text-sm md:text-base">Made with ❤️ by you viruss for your special day!</p>
+        <p className="text-white text-sm md:text-base">Made with ❤️ by your viruss for your special day!</p>
       </footer>
     </div>
   );
