@@ -12,7 +12,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex-1 flex flex-col justify-center items-center py-10 md:py-20">
+      <main className="flex-1 flex flex-col justify-center items-center py-10 md:py-20 text-center">
         <h1 className="text-4xl md:text-6xl font-bold text-white animate-bounce">
           Happy Birthday My dear Bacteria!
         </h1>
